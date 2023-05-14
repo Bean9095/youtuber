@@ -5,7 +5,16 @@
 # log-level: info
 # external-controller: :9090
 proxies:
-  - {name: onevip-2, server: 37.252.14.215, port: 10032, type: ss, cipher: "aes-256-cfb", password: "wJNqJdL"}
+  - {name: onevip-2, server: 37.252.14.215, port: 10032, type: ss, cipher: "aes-256-cfb", password: "ZjCCUBr"}
+  - {name: onevip-5, server: 130.0.235.155, port: 10017, type: ss, cipher: "aes-256-cfb", password: "sdGjn9u"}
+  - {name: onevip-30, server: 5.61.60.166, port: 10041, type: ss, cipher: "aes-256-cfb", password: "v32BuKr"}
+  - {name: onevip-4, server: 185.4.67.5, port: 10007, type: ss, cipher: "aes-256-cfb", password: "yZBSB2D"}
+  - {name: onevip-9, server: 188.116.25.85, port: 10034, type: ss, cipher: "aes-256-cfb", password: "azY83aU"}
+  - {name: onevip-32, server: 185.87.150.250, port: 10006, type: ss, cipher: "aes-256-cfb", password: "HkrRLtM"}
+  - {name: onevip-31, server: 176.97.64.27, port: 10011, type: ss, cipher: "aes-256-cfb", password: "rAWMz44"}
+  - {name: onevip-6, server: 188.126.77.73, port: 10009, type: ss, cipher: "aes-256-cfb", password: "G5GxhSe"}
+  - {name: onevip-8, server: 80.79.125.102, port: 10001, type: ss, cipher: "aes-256-cfb", password: "KfvStyU"}
+  - {name: onevip-28, server: 179.43.176.237, port: 10010, type: ss, cipher: "aes-256-cfb", password: "ySn4GUV"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +22,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - onevip-2
+      - onevip-5
+      - onevip-30
+      - onevip-4
+      - onevip-9
+      - onevip-32
+      - onevip-31
+      - onevip-6
+      - onevip-8
+      - onevip-28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,45 +38,40 @@ proxy-groups:
     tolerance: 50
     proxies:
       - onevip-2
+      - onevip-5
+      - onevip-30
+      - onevip-4
+      - onevip-9
+      - onevip-32
+      - onevip-31
+      - onevip-6
+      - onevip-8
+      - onevip-28
       
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - onevip-2
   - name: 📲 电报信息
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - onevip-2
+      - ♻️ 自动选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
-      - 🚀 节点选择
-      - onevip-2
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🚀 节点选择
       - 🎯 全球直连
-      - onevip-2
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
       - ♻️ 自动选择
-      - onevip-2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -72,11 +85,11 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 节点选择
       - 🎯 全球直连
-      - ♻️ 自动选择
       
 rules:
+ - DOMAIN-SUFFIX,poe.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
