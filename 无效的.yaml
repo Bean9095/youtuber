@@ -5,18 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: onevip-2, server: 37.252.14.215, port: 10032, type: ss, cipher: "aes-256-cfb", password: "PPRRn7N"}
-  - {name: onevip-30, server: 5.61.60.166, port: 10041, type: ss, cipher: "aes-256-cfb", password: "GsYBmcy"}
-  - {name: onevip-9, server: 188.116.25.85, port: 10034, type: ss, cipher: "aes-256-cfb", password: "bUQ4Zz9"}
-  - {name: onevip-28, server: 179.43.176.237, port: 10010, type: ss, cipher: "aes-256-cfb", password: "6GPBZg5"}
-  - {name: onevip-3, server: 205.204.71.250, port: 10009, type: ss, cipher: "aes-256-cfb", password: "kXBXbz7"}
-  - {name: onevip-31, server: 176.97.64.27, port: 10011, type: ss, cipher: "aes-256-cfb", password: "YgVxw3L"}
-  - {name: onevip-6, server: 188.126.77.73, port: 10009, type: ss, cipher: "aes-256-cfb", password: "7NCc6uV"}
-  - {name: onevip-4, server: 185.4.67.5, port: 10007, type: ss, cipher: "aes-256-cfb", password: "TkqHUdL"}
-  - {name: onevip-8, server: 80.79.125.102, port: 10001, type: ss, cipher: "aes-256-cfb", password: "gbgnGtt"}
-  - {name: onevip-5, server: 130.0.235.155, port: 10017, type: ss, cipher: "aes-256-cfb", password: "8pC2Eap"}
-  - {name: onevip-16, server: 37.1.209.230, port: 10007, type: ss, cipher: "aes-256-cfb", password: "XpGq5vM"}
-  - {name: onevip-32, server: 185.87.150.250, port: 10006, type: ss, cipher: "aes-256-cfb", password: "85h3nqb"}
+  - {name: onevip-2, server: 37.252.14.215, port: 10032, type: ss, cipher: "aes-256-cfb", password: "vJdkpLW"}
+  - {name: onevip-5, server: 130.0.235.155, port: 10017, type: ss, cipher: "aes-256-cfb", password: "qahuKVX"}
+  - {name: onevip-30, server: 5.61.60.166, port: 10041, type: ss, cipher: "aes-256-cfb", password: "2f3WTJM"}
+  - {name: onevip-3, server: 205.204.71.250, port: 10009, type: ss, cipher: "aes-256-cfb", password: "Rfq8BBD"}
+  - {name: onevip-4, server: 185.4.67.5, port: 10007, type: ss, cipher: "aes-256-cfb", password: "JxkygAW"}
+  - {name: onevip-9, server: 188.116.25.85, port: 10034, type: ss, cipher: "aes-256-cfb", password: "kgbsaFF"}
+  - {name: onevip-32, server: 185.87.150.250, port: 10006, type: ss, cipher: "aes-256-cfb", password: "jTQkNdq"}
+  - {name: onevip-31, server: 176.97.64.27, port: 10003, type: ss, cipher: "aes-256-cfb", password: "sdh4UzT"}
+  - {name: onevip-6, server: 188.126.77.73, port: 10009, type: ss, cipher: "aes-256-cfb", password: "CaNVdfY"}
+  - {name: onevip-8, server: 80.79.125.102, port: 10001, type: ss, cipher: "aes-256-cfb", password: "sNDEQMU"}
+  - {name: onevip-28, server: 179.43.176.237, port: 10010, type: ss, cipher: "aes-256-cfb", password: "mtKsyjn"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -24,17 +23,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - onevip-2
+      - onevip-5
       - onevip-30
-      - onevip-9
-      - onevip-28
       - onevip-3
+      - onevip-4
+      - onevip-9
+      - onevip-32
       - onevip-31
       - onevip-6
-      - onevip-4
       - onevip-8
-      - onevip-5
-      - onevip-16
-      - onevip-32
+      - onevip-28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,17 +40,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - onevip-2
+      - onevip-5
       - onevip-30
-      - onevip-9
-      - onevip-28
       - onevip-3
+      - onevip-4
+      - onevip-9
+      - onevip-32
       - onevip-31
       - onevip-6
-      - onevip-4
       - onevip-8
-      - onevip-5
-      - onevip-16
-      - onevip-32
+      - onevip-28
       
   - name: 🌍 国外媒体
     type: select
