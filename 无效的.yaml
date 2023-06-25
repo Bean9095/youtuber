@@ -5,16 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: onevip-2, server: 37.252.14.215, port: 10026, type: ss, cipher: "aes-256-cfb", password: "xFNfve8"}
-  - {name: onevip-5, server: 130.0.235.155, port: 10015, type: ss, cipher: "aes-256-cfb", password: "YRrKLjM"}
-  - {name: onevip-30, server: 5.61.60.166, port: 10019, type: ss, cipher: "aes-256-cfb", password: "3RYWExf"}
-  - {name: onevip-3, server: 205.204.71.250, port: 10000, type: ss, cipher: "aes-256-cfb", password: "nzd6mmd"}
-  - {name: onevip-4, server: 185.4.67.5, port: 10003, type: ss, cipher: "aes-256-cfb", password: "TxbYWz7"}
-  - {name: onevip-32, server: 185.87.150.250, port: 10003, type: ss, cipher: "aes-256-cfb", password: "WZgtyGK"}
-  - {name: onevip-31, server: 176.97.64.27, port: 10004, type: ss, cipher: "aes-256-cfb", password: "L3SdA4h"}
-  - {name: onevip-6, server: 188.126.77.73, port: 10008, type: ss, cipher: "aes-256-cfb", password: "CPptLqL"}
-  - {name: onevip-8, server: 80.79.125.102, port: 10007, type: ss, cipher: "aes-256-cfb", password: "Ddn9GNM"}
-  - {name: onevip-28, server: 179.43.176.237, port: 10001, type: ss, cipher: "aes-256-cfb", password: "nxYMHMP"}
+  - {name: onevip-2, server: 37.252.14.215, port: 10014, type: ss, cipher: "aes-256-cfb", password: "qDFrgJ6"}
+  - {name: onevip-5, server: 130.0.235.155, port: 10025, type: ss, cipher: "aes-256-cfb", password: "F6JDnxZ"}
+  - {name: onevip-30, server: 5.61.60.166, port: 10025, type: ss, cipher: "aes-256-cfb", password: "qkHT6hy"}
+  - {name: onevip-3, server: 205.204.71.250, port: 10013, type: ss, cipher: "aes-256-cfb", password: "E9NRDq7"}
+  - {name: onevip-4, server: 185.4.67.5, port: 10005, type: ss, cipher: "aes-256-cfb", password: "4BWw3vR"}
+  - {name: onevip-32, server: 185.87.150.250, port: 10004, type: ss, cipher: "aes-256-cfb", password: "LECXr5f"}
+  - {name: onevip-31, server: 176.97.64.27, port: 10009, type: ss, cipher: "aes-256-cfb", password: "7K5pD4a"}
+  - {name: onevip-6, server: 188.126.77.73, port: 10003, type: ss, cipher: "aes-256-cfb", password: "PmxLVMH"}
+  - {name: onevip-8, server: 80.79.125.102, port: 10004, type: ss, cipher: "aes-256-cfb", password: "EEZU3k4"}
+  - {name: onevip-28, server: 179.43.176.237, port: 10005, type: ss, cipher: "aes-256-cfb", password: "Cv436Vt"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
