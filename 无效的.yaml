@@ -28,7 +28,6 @@ proxy-groups:
       - onevip-31
       - onevip-6
       - onevip-8
-      - onevip-28
       - onevip-16
   - name: ♻️ 自动选择
     type: url-test
@@ -44,7 +43,6 @@ proxy-groups:
       - onevip-31
       - onevip-6
       - onevip-8
-      - onevip-28
       - onevip-16
       
   - name: 🌍 国外媒体
