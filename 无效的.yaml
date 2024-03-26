@@ -85,20 +85,20 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"gtm.ktmwan.com","type":"ss","server":"36.133.1.37","port":27250,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 SG新加坡","type":"ss","server":"36.133.1.37","port":27250,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 JP日本","type":"ss","server":"36.133.1.37","port":27251,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳 IN印度","type":"ss","server":"36.133.1.37","port":27252,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 USA美国","type":"ss","server":"36.133.1.37","port":27253,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺 AU澳大利亚","type":"ss","server":"36.133.1.37","port":27254,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 UK英国","type":"ss","server":"36.133.1.37","port":27255,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦 CA加拿大","type":"ss","server":"36.133.1.37","port":27256,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE德国","type":"ss","server":"36.133.1.37","port":27257,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR法国","type":"ss","server":"36.133.1.37","port":27258,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 HK香港","type":"ss","server":"36.133.1.37","port":27259,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳 TW台湾","type":"ss","server":"36.133.1.37","port":27260,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 SG新加坡2","type":"ss","server":"36.133.1.37","port":27261,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 KR韩国","type":"ss","server":"36.133.1.37","port":27262,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"gtm1.ktmwan.com","type":"ss","server":"36.134.35.66","port":27250,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG新加坡","type":"ss","server":"36.134.35.66","port":27250,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 JP日本","type":"ss","server":"36.134.35.66","port":27251,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN印度","type":"ss","server":"36.134.35.66","port":27252,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 USA美国","type":"ss","server":"36.134.35.66","port":27253,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇺 AU澳大利亚","type":"ss","server":"36.134.35.66","port":27254,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 UK英国","type":"ss","server":"36.134.35.66","port":27255,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA加拿大","type":"ss","server":"36.134.35.66","port":27256,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE德国","type":"ss","server":"36.134.35.66","port":27257,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR法国","type":"ss","server":"36.134.35.66","port":27258,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 HK香港","type":"ss","server":"36.134.35.66","port":27259,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 TW台湾","type":"ss","server":"36.134.35.66","port":27260,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG新加坡2","type":"ss","server":"36.134.35.66","port":27261,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 KR韩国","type":"ss","server":"36.134.35.66","port":27262,"udp":true,"password":"12e53b09-438d-45ad-b3df-86799c95ec15","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
